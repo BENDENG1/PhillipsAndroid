@@ -5,15 +5,16 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.*
-import com.bendeng.composepractice.component.ScaffoldSnackbarPractice
+import com.bendeng.composepractice.component.ListPractice
 
 @OptIn(ExperimentalMaterial3Api::class)
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContent {
-            ScaffoldSnackbarPractice()
+            ListPractice()
         }
     }
 }
