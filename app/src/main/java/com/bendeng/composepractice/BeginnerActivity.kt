@@ -24,13 +24,13 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.bendeng.composepractice.ui.theme.PhillipsJetPackTheme
+import com.bendeng.composepractice.ui.theme.ComposePracticeTheme
 
 class BeginnerActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            PhillipsJetPackTheme {
+            ComposePracticeTheme {
                 var name by remember { mutableStateOf("") }
                 var names by remember { mutableStateOf(emptyList<String>()) }
                 Column(
