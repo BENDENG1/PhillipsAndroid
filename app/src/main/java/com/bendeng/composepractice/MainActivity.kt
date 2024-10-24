@@ -3,7 +3,7 @@ package com.bendeng.composepractice
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.bendeng.composepractice.component.StyleTextScreen
+import com.bendeng.composepractice.component.DivideColumnScreen
 import com.bendeng.composepractice.ui.theme.ComposePracticeTheme
 
 class MainActivity : ComponentActivity() {
@@ -13,9 +13,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposePracticeTheme {
-                StyleTextScreen()
+                DivideColumnScreen()
             }
         }
     }
 }
-
