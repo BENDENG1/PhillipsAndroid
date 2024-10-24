@@ -1,4 +1,4 @@
-package com.bendeng.phillipsjetpack
+package com.bendeng.composepractice
 
 import org.junit.Test
 

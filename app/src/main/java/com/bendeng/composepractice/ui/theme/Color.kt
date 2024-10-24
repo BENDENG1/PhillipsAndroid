@@ -1,4 +1,4 @@
-package com.bendeng.phillipsjetpack.ui.theme
+package com.bendeng.composepractice.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

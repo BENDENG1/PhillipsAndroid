@@ -1,4 +1,4 @@
-package com.bendeng.phillipsjetpack.ui.theme
+package com.bendeng.composepractice.ui.theme
 
 import android.app.Activity
 import android.os.Build

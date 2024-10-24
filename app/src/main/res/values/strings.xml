@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">PhillipsJetPack</string>
+    <string name="app_name">ComposePractice</string>
+    <string name="title_activity_beginner">BeginnerActivity</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>

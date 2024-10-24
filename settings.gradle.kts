@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PhillipsJetPack"
+rootProject.name = "ComposePractice"
 include(":app")
  

@@ -13,9 +13,14 @@
         android:theme="@style/Theme.PhillipsJetPack"
         tools:targetApi="31">
         <activity
+            android:name=".BeginnerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_beginner"
+            android:theme="@style/Theme.PhillipsJetPack" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_main"
             android:theme="@style/Theme.PhillipsJetPack">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
