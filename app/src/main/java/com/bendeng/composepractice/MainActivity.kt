@@ -5,7 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.*
-import com.bendeng.composepractice.component.ConstraintLayoutPractice
+import com.bendeng.composepractice.component.SimpleAnimationPractice
+import com.bendeng.composepractice.ui.theme.ComposePracticeTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 class MainActivity : ComponentActivity() {
@@ -14,8 +15,12 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            ConstraintLayoutPractice()
+            ComposePracticeTheme {
+                SimpleAnimationPractice()
+            }
         }
     }
 }
+
+
 
